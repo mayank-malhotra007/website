@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vedic Astrology</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        p{
+            padding-top:10px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,17 +21,38 @@
     <main>
         <section>
             <h2>Introduction</h2>
-            <p>Give an introduction and history ...</p>
-            <p>Learn about the planets here:<a href="planets.html" class="special-link">Planets</a> page.</p>
-            
+            <p>
+Vedic astrology, also known as "Jyotish," is an ancient system of astrology that originated in India thousands of years ago. It is rooted in the Vedas, the oldest sacred texts of Hinduism, and is considered a spiritual science. Vedic astrology focuses on the connection between celestial bodies (such as planets and stars) and events on Earth, believing that the positions and movements of these celestial bodies can influence human life and destiny.</p>
+            <p>Learn about the planets here by logging in...</p>
         </section>
         
-        
-        
-        
+        <section>
+          <div class = "container">
+            <div class = "login-container">
+                <h2>Login</h2>
+                <form actions="#">
+                    <div class="input-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                </form>
+                <p class="signup-link">Don't have an account? <a href="#">Sign Up</a></p>
+            </div>
+           </div>
+        </section>
     </main>
     
     <script src="script.js"></script>
+    
+    <footer>
+        Learn Vedic Astrology
+    </footer>
+    
 </body>
 </html>
 
